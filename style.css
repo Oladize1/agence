@@ -103,7 +103,7 @@ header > .hero-txt {
 
 .about-content {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     gap: 70px;
