@@ -71,7 +71,7 @@ header > .hero-txt {
 @media screen and (max-width: 600px) {
     header {
         padding: 20px 5px 5px;
-        height: 60vh;
+        height: 70vh;
     }
     header > .hero-txt {
         width: 100%;
@@ -81,20 +81,17 @@ header > .hero-txt {
         margin: 10px;
     }
     .hero-txt > .intro-txt {
-        font-size: 40pt;
+        font-size: 35pt;
         padding-bottom: 10px;
         margin-inline-end: 0;
     }
     .hero-txt > p {
         font-size: 16px;
         text-align: left;
-        margin-inline-end: 100px;
+        margin-inline-end: 50px;
     }
 }
 
-@media screen and (max-width: 4880px) and (min-width: 601px) {
-    
-}
 
 /* end of header section */
 
@@ -140,7 +137,6 @@ header > .hero-txt {
 @media screen and (max-width: 1050px) {
     .about-content {
         width: 70%;
-        margin: auto;
         display: flex;
         align-items: center;
         gap: 40px;
@@ -148,6 +144,9 @@ header > .hero-txt {
 }
 
 @media  screen and (max-width: 600px) {
+    .about-us {
+        padding: 20px;
+    }
     .about-content {
         width: 100%;
         flex-direction: column;
@@ -156,7 +155,7 @@ header > .hero-txt {
     }
 
     .about-img > img {
-        width: 480px;
+        width: 100vw;
         height: 390px;
     }
     
@@ -170,7 +169,7 @@ header > .hero-txt {
         font-size: 17px;
         text-align: left;
         line-height: 30px;
-        margin-inline-end: 50px;
+        padding-inline-end: 20px;
     }
 }
 
